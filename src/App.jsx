@@ -1,6 +1,6 @@
-import '../css/App.css'
+import './App.css'
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './components/jsx/Navbar'
 
 function App() {
   return (
