@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <BrowserRouter>
-      <nav className="navbar">
+      <div className="navbar">
         <div className="nav-logo" onClick={closeMobileMenu}>
           Modular South
         </div>
@@ -46,7 +46,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </div>
     </BrowserRouter>
   )
 }

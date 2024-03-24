@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('ModSStudioRender.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(120vh);
+}
