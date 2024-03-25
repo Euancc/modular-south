@@ -6,5 +6,6 @@
     url('ModSStudioRender.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(120vh);
+  background-position: 0;
+  height: 100vh;
 }
