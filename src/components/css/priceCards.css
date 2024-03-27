@@ -1,0 +1,13 @@
+.card-container {
+  display: flex;
+}
+
+.card {
+  height: 400px;
+  width: 350px;
+  padding: 30px;
+}
+
+.card-img {
+  height: 180px;
+}

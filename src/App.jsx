@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/jsx/Navbar'
 import Hero from './components/jsx/Hero'
 import About from './components/jsx/About'
+import PriceCards from './components/jsx/PriceCards'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <PriceCards />
     </>
   )
 }
