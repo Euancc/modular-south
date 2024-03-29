@@ -1,7 +1,10 @@
+.about-section {
+  background-color: #f5f5f5;
+}
+
 .about-container {
   display: flex;
-
-  margin: 50px 100px 50px 100px;
+  padding: 50px 100px 50px 100px;
 }
 
 h1 {
