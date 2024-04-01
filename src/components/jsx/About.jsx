@@ -4,6 +4,7 @@ import '../css/about.css'
 function About() {
   return (
     <section className="about-section">
+      <hr width="90%" size="2" />
       <div className="about-container">
         <div className="about-text">
           <h1>Who we are</h1>
@@ -21,6 +22,7 @@ function About() {
         </div>
         <img className="about-img" src="ModSFraming4.3.jpg" />
       </div>
+      <hr width="90%" size="2" />
     </section>
   )
 }
