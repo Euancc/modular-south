@@ -6,6 +6,7 @@ function PriceCards() {
     <>
       <section className="card-section">
         <h1>Price List</h1>
+
         <div className="card-container">
           <div className="card">
             <img className="card-img" src="CardImage7.5x4.jpg" />
