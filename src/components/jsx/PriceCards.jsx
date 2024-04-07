@@ -5,7 +5,7 @@ function PriceCards() {
   return (
     <>
       <section className="card-section">
-        <h1>Price List</h1>
+        <h1 className="price-header">Price List</h1>
 
         <div className="card-container">
           <div className="card">

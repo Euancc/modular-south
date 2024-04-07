@@ -1,35 +1,31 @@
 .card-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0;
+
   background-color: #fffff0;
   padding: 0;
 }
 
+.price-header {
+  margin-left: 80px;
+}
+
 .card-section h1 {
   padding-top: 30px;
-
   padding-bottom: 30px;
   font-size: 30px;
 }
 
 .card-container {
-  width: 90%;
-  margin: 20px auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  display: grid;
 
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 }
 
 .card {
   height: 400px;
 
-  width: 30%;
+  width: 300px;
   margin-bottom: 20px;
   min-width: 300px;
 }
