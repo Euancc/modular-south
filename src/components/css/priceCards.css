@@ -18,13 +18,15 @@
 
 .card-container {
   display: grid;
+  /* padding: 20px auto; */
+  margin: 20px;
 
-  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .card {
   height: 400px;
-
+  margin: auto;
   width: 300px;
   margin-bottom: 20px;
   min-width: 300px;
@@ -39,7 +41,7 @@
 
 .card-img {
   height: 180px;
-  width: 90%;
+  width: 100%;
 }
 
 /* @media screen and (max-width: 960px) {
