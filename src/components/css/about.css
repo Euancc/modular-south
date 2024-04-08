@@ -9,7 +9,6 @@
 
 .about-section hr {
   width: 90%;
-
   border: none;
   border-top: 2px solid #ddd;
 }
@@ -27,11 +26,28 @@
 }
 
 .about-text {
-  margin: 130px 20px 20px 20px;
+  margin: auto;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .about-img {
-  height: 30rem;
-  width: 30rem;
-  margin: 20px 20px 20px 20px;
+  flex: 1;
+  min-width: 400px;
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .about-container {
+    display: grid;
+    padding: 20px;
+  }
+
+  .about-img {
+    flex: 1;
+    min-width: none;
+    max-width: 400px;
+    margin: 30px auto;
+  }
 }
