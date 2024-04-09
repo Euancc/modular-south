@@ -11,7 +11,7 @@ function PriceCards() {
           <div className="card">
             <img className="card-img" src="CardImage7.5x4.jpg" />
             <div className="card-text">
-              <h1>Unit A</h1>
+              <h1>Unit A</h1>1 under construction
               <h2>7.5mx4.0m Modular unit starting from $130,000</h2>
               <div>Self Contained, Transportable dwellings Sleepouts/flat </div>
             </div>
