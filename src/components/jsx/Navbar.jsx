@@ -11,43 +11,41 @@ function Navbar() {
   const closeMobileMenu = () => setclick(false)
 
   return (
-    <BrowserRouter>
-      <div className="navbar">
-        <div className="nav-logo" onClick={closeMobileMenu}>
-          Modular South
-        </div>
-
-        <div className="hamburger-button" onClick={handleClick}>
-          <img src={click ? 'close.png' : 'hamburger.png'} />
-        </div>
-
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li>
-            <Link to="/" className="nav-link" onClick={closeMobileMenu}>
-              About
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/" className="nav-link" onClick={closeMobileMenu}>
-              Services
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/" className="nav-link" onClick={closeMobileMenu}>
-              Gallery
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/" className="nav-link" onClick={closeMobileMenu}>
-              Contact
-            </Link>
-          </li>
-        </ul>
+    <div className="navbar">
+      <div className="nav-logo" onClick={closeMobileMenu}>
+        Modular South
       </div>
-    </BrowserRouter>
+
+      <div className="hamburger-button" onClick={handleClick}>
+        <img src={click ? 'close.png' : 'hamburger.png'} />
+      </div>
+
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li>
+          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+            About
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+            Services
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+            Gallery
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </div>
   )
 }
 

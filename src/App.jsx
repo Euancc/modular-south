@@ -1,17 +1,18 @@
-import './App.css'
 import React from 'react'
-import Navbar from './components/jsx/Navbar'
-import Hero from './components/jsx/Hero'
-import About from './components/jsx/About'
-import PriceCards from './components/jsx/PriceCards'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/homePage'
+import Services from './pages/servicesPage'
+import './App.css'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <PriceCards />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+      </Router>
     </>
   )
 }

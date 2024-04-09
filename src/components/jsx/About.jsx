@@ -9,12 +9,12 @@ function About() {
         <div className="about-text">
           <h1>Who we are</h1>
           <p>
-            <bold>
+            <strong>
               Modular South is a new business using Licensed Building
               Practitioner carpenters with 10+ years knowledge in the
               construction industry to build the right Transportable dwellings
               for you.
-            </bold>
+            </strong>
           </p>
           <br></br>
           <p>
