@@ -1,0 +1,25 @@
+.product-section {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+.product-section h1 {
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container hr {
+  width: 85%;
+  border: none;
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

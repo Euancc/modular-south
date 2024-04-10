@@ -1,7 +1,6 @@
 import react, { useState } from 'react'
 import '../css/navbar.css'
 import { HashLink as Link } from 'react-router-hash-link'
-import { BrowserRouter } from 'react-router-dom'
 
 import React from 'react'
 
@@ -12,9 +11,9 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="nav-logo" onClick={closeMobileMenu}>
+      <Link to="#about" className="nav-logo" onClick={closeMobileMenu}>
         Modular South
-      </div>
+      </Link>
 
       <div className="hamburger-button" onClick={handleClick}>
         <img src={click ? 'close.png' : 'hamburger.png'} />
@@ -22,25 +21,25 @@ function Navbar() {
 
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+          <Link to="/#about" className="nav-link" onClick={closeMobileMenu}>
             About
           </Link>
         </li>
 
         <li>
-          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+          <Link to="/services" className="nav-link" onClick={closeMobileMenu}>
             Services
           </Link>
         </li>
 
         <li>
-          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+          <Link to="/Gallery" className="nav-link" onClick={closeMobileMenu}>
             Gallery
           </Link>
         </li>
 
         <li>
-          <Link to="/" className="nav-link" onClick={closeMobileMenu}>
+          <Link to="/Contact" className="nav-link" onClick={closeMobileMenu}>
             Contact
           </Link>
         </li>
